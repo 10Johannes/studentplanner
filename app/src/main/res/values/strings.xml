@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BZB</string>
+    <string name="terms">Terms</string>
+    <string name="courses">Courses</string>
+    <string name="assessments">Assessments</string>
+    <string name="term_title">Term Title</string>
+    <string name="end_date">End Date:</string>
+    <string name="start_date">Start Date:</string>
+    <string name="end">End</string>
+    <string name="start">Start</string>
+    <string name="assessment_name">Assessment Name</string>
+    <string-array name="status_array">
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+        <item>Plan To Take</item>
+    </string-array>
+    <string-array name="type_array">
+        <item>Objective</item>
+        <item>Performance</item>
+        <item>Pre-Assessment</item>
+        <item>Other</item>
+    </string-array>
+</resources>
