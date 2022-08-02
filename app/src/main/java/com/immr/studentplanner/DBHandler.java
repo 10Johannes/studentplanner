@@ -58,7 +58,7 @@ public class DBHandler extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(
                 "CREATE TABLE users (user_id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                        "username TEXT PRIMARY KEY, " +
+                        "username TEXT," +
                         "password TEXT)");
 
         db.execSQL(
